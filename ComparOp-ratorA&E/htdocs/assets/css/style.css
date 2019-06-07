@@ -1,0 +1,181 @@
+        @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.discordapp.com/attachments/583273517164920849/585734575813034014/fond.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+            background-repeat: no-repeat;
+        }
+        
+        .form_dest {
+            margin-top: 30px;
+            margin-left: 4vw;
+            background-color: rgba(189, 229, 248, 0.5);
+            width: 95vw;
+            height: 20em;
+            padding-top: 8em;
+        }
+        
+        .form_premium {
+            margin-top: 30px;
+            margin-left: 40vw;
+            background-color: rgba(189, 229, 248, 0.5);
+            width: 20vw;
+            height: 20em;
+            padding-top: 8em;
+            text-align: center;
+        }
+        
+        .form_TO {
+            margin-top: 30px;
+            margin-left: 28vw;
+            background-color: rgba(189, 229, 248, 0.5);
+            width: 45vw;
+            height: 20em;
+            padding-top: 8em;
+            text-align: center;
+        }
+        
+        .admin {
+            margin-right: 100Px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: black;
+        }
+        /* ------------------- CARDS ------------------- */
+        
+        .TO_link {
+            color: rgb(0, 174, 255);
+        }
+        
+        .card {
+            margin-top: 30px;
+            margin: auto;
+            float: none;
+            margin-bottom: 25px;
+        }
+        
+        .card-title {
+            margin-top: 0px;
+        }
+        
+        .destimg {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-top: 20px;
+        }
+        
+        .card-title {
+            color: darkblue;
+            margin-top: 20px;
+        }
+        
+        .card-title2 {
+            color: rgb(61, 61, 240);
+            font-size: 30px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .card-text0 {
+            color: rgb(61, 61, 240);
+            font-size: 15px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .card-text1 {
+            color: rgb(61, 61, 240);
+            font-size: 20px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        /* -------------------  PMESSAGE D'ERREUR -------------------  */
+        
+        .isa_info,
+        .isa_success,
+        .isa_warning,
+        .isa_error {
+            margin: 100px 37vw;
+            height: 70px;
+            width: 300px;
+            animation: 3s 5s message forwards linear;
+            position: absolute;
+        }
+        
+        .isa_info {
+            color: #00529B;
+            background-color: #BDE5F8;
+        }
+        
+        .isa_success {
+            color: #4F8A10;
+            background-color: #DFF2BF;
+        }
+        
+        .isa_warning {
+            color: #9F6000;
+            background-color: #FEEFB3;
+        }
+        
+        .isa_error {
+            color: #D8000C;
+            background-color: rgba(255, 0, 0, 0.336);
+            position: absolute;
+        }
+        
+        .isa_info i,
+        .isa_success i,
+        .isa_warning i,
+        .isa_error i {
+            margin: 10px 22px;
+            font-size: 2em;
+        }
+        
+        @keyframes message {
+            0% {
+                margin: 100px 37vw;
+            }
+            100% {
+                margin: -1000px 37vw;
+            }
+        }
+        
+        input {
+            border: whitesmoke solid 2px;
+            border-radius: 5px;
+        }
+        /* -------------------   EMILIE -------------------  */
+        
+        .titre {
+            margin-left: 37vw;
+            position: absolute;
+            font-size: 40px;
+            color: #00adb5;
+            text-decoration: none;
+        }
+        
+        .titre:hover {
+            text-decoration: none;
+        }
+        
+        footer {
+            height: 0px;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }

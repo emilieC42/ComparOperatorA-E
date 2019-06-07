@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@media screen and (max-width: 1040px) {
+    @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden !important;
+        margin: 0;
+        padding: 0;
+        background: url('https://cdn.discordapp.com/attachments/583273517164920849/585734575813034014/fond.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .form_dest {
+        margin-top: 30px;
+        margin-left: 4vw;
+        background-color: rgba(189, 229, 248, 0.5);
+        width: 95vw;
+        height: 20em;
+        padding-top: 8em;
+    }
+    .form_premium {
+        margin-top: 30px;
+        margin-left: 40vw;
+        background-color: rgba(189, 229, 248, 0.5);
+        width: 20vw;
+        height: 20em;
+        padding-top: 8em;
+        text-align: center;
+    }
+    .form_TO {
+        margin-top: 30px;
+        margin-left: 28vw;
+        background-color: rgba(189, 229, 248, 0.5);
+        width: 45vw;
+        height: 20em;
+        padding-top: 8em;
+        text-align: center;
+    }
+    .admin {
+        margin-right: 100Px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar {
+        width: 100vw;
+    }
+    /* ------------------- CARDS ------------------- */
+    .TO_link {
+        color: rgb(0, 174, 255);
+    }
+    .card {
+        margin-top: 30px;
+        float: none;
+        margin-bottom: 25px;
+        width: 60vw;
+        box-shadow: black 10px 10px 5px;
+    }
+    .card-title {
+        margin-top: 0px;
+    }
+    .destimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .card-title {
+        color: darkblue;
+        margin-top: 20px;
+    }
+    .card-title2 {
+        color: rgb(61, 61, 240);
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    .card-text0 {
+        color: rgb(61, 61, 240);
+        font-size: 15px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    .card-text1 {
+        color: rgb(61, 61, 240);
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    /* -------------------  PMESSAGE D'ERREUR -------------------  */
+    .isa_info,
+    .isa_success,
+    .isa_warning,
+    .isa_error {
+        margin: 100px 37vw;
+        height: 70px;
+        width: 300px;
+        animation: 3s 5s message forwards linear;
+        position: absolute;
+    }
+    .isa_info {
+        color: #00529B;
+        background-color: #BDE5F8;
+    }
+    .isa_success {
+        color: #4F8A10;
+        background-color: #DFF2BF;
+    }
+    .isa_warning {
+        color: #9F6000;
+        background-color: #FEEFB3;
+    }
+    .isa_error {
+        color: #D8000C;
+        background-color: rgba(255, 0, 0, 0.336);
+        position: absolute;
+    }
+    .isa_info i,
+    .isa_success i,
+    .isa_warning i,
+    .isa_error i {
+        margin: 10px 22px;
+        font-size: 2em;
+    }
+    @keyframes message {
+        0% {
+            margin: 100px 37vw;
+        }
+        100% {
+            margin: -1000px 37vw;
+        }
+    }
+    input {
+        border: whitesmoke solid 2px;
+        border-radius: 5px;
+    }
+    /* -------------------   EMILIE -------------------  */
+    .titre {
+        margin-left: 37vw;
+        position: absolute;
+        font-size: 7vw;
+        color: #00adb5;
+        text-decoration: none;
+    }
+    .titre:hover {
+        text-decoration: none;
+    }
+    footer {
+        height: 0px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* ------------------------- ORDINATEUR -------------------------*/
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.discordapp.com/attachments/583273517164920849/585734575813034014/fond.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.form_dest {
+    margin-top: 30px;
+    margin-left: 4vw;
+    background-color: rgba(189, 229, 248, 0.5);
+    width: 95vw;
+    height: 20em;
+    padding-top: 8em;
+}
+
+.form_premium {
+    margin-top: 30px;
+    margin-left: 40vw;
+    background-color: rgba(189, 229, 248, 0.5);
+    width: 20vw;
+    height: 20em;
+    padding-top: 8em;
+    text-align: center;
+}
+
+.form_TO {
+    margin-top: 30px;
+    margin-left: 28vw;
+    background-color: rgba(189, 229, 248, 0.5);
+    width: 45vw;
+    height: 20em;
+    padding-top: 8em;
+    text-align: center;
+}
+
+.admin {
+    margin-right: 100Px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ------------------- CARDS ------------------- */
+
+.TO_link {
+    color: rgb(0, 174, 255);
+}
+
+.card {
+    box-shadow: black 10px 10px 5px;
+    margin-top: 50px;
+    margin: auto;
+    float: none;
+    margin-bottom: 25px;
+    position: relative;
+    width: 50%;
+    height: 1200px;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.info_dest {
+    height: 700px;
+}
+
+.card:hover {
+    box-shadow: black 10px 10px 18px;
+}
+
+.hr_card {
+    width: 0;
+    height: 0px;
+    background-color: black;
+}
+
+.card:hover .hr_card {
+    animation: 600ms hr linear forwards;
+}
+
+.hr_card-collum {
+    width: 2px;
+    height: 0%;
+    background-color: black;
+}
+
+.card:hover .hr_card-collum {
+    animation: 600ms hr-collum linear forwards;
+}
+
+.hr_card-collum-2 {
+    width: 2px;
+    height: 0%;
+    background-color: black;
+}
+
+.card:hover .hr_card-collum-2 {
+    animation: 600ms hr-collum-2 linear forwards;
+}
+
+.price {
+    position: relative;
+    transition: 600ms all linear;
+}
+
+.card:hover .price {
+    top: -20vh;
+}
+
+.containt-hr {
+    height: 29vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-height:900px) {
+    .containt-hr {
+        height: 21.7vh;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@keyframes hr {
+    0% {
+        width: 0;
+        height: 5px;
+    }
+    50% {
+        margin-top: 5vh;
+        margin-left: 25%;
+        width: 5%;
+        height: 1px;
+    }
+    100% {
+        margin-left: 25%;
+        width: 50%;
+        height: 2px;
+    }
+}
+
+@keyframes hr-collum {
+    0% {
+        width: 2px;
+        height: 0;
+    }
+    50% {
+        margin-left: 25%;
+        width: 1px;
+        height: 5vh;
+    }
+    100% {
+        margin-left: 25%;
+        width: 2px;
+        height: 25vh;
+    }
+}
+
+@keyframes hr-collum-2 {
+    0% {
+        width: 2px;
+        height: 0;
+    }
+    50% {
+        margin-left: 75%;
+        width: 1px;
+        height: 5vh;
+    }
+    100% {
+        margin-top: -35vh;
+        margin-left: 75%;
+        width: 2px;
+        height: 25vh;
+    }
+}
+
+.card-title {
+    margin-top: 50px;
+}
+
+.destimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-title2 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+.card-text0 {
+    color: rgb(61, 61, 240);
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-text1 {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.card-text3 {
+    color: rgb(61, 61, 240);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.review {
+    height: 300px;
+    overflow: hidden;
+}
+
+
+/* -------------------  PMESSAGE D'ERREUR -------------------  */
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 100px 37vw;
+    height: 70px;
+    width: 300px;
+    animation: 3s 5s message forwards linear;
+    position: absolute;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: rgba(255, 0, 0, 0.336);
+    position: absolute;
+}
+
+.isa_info i,
+.isa_success i,
+.isa_warning i,
+.isa_error i {
+    margin: 10px 22px;
+    font-size: 2em;
+}
+
+@keyframes message {
+    0% {
+        margin: 100px 37vw;
+    }
+    100% {
+        margin: -1000px 37vw;
+    }
+}
+
+input {
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+}
+
+
+/* -------------------   EMILIE -------------------  */
+
+.titre {
+    margin-left: 37vw;
+    position: absolute;
+    font-size: 4vw;
+    color: #00adb5;
+    text-decoration: none;
+}
+
+.titre:hover {
+    text-decoration: none;
+}
+
+footer {
+    height: 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*-_-_-_-_-_-_-AXEL-_-_-_-_-_-_-*/
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    width: 300px;
+    position: relative;
+    text-align: center;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    color: red;
+    font-size: 40px;
+    width: 40px;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+    cursor: pointer;
+    color: #09c;
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    animation-direction: normal;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@-webkit-keyframes mymove {
+    from {
+        color: #fdff94;
+    }
+    to {
+        color: yellow;
+    }
+}
+
+.review {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+box-shadow: black 10px 10px 5px;
+animation: 600ms hr-collum-2 linear forwards;
+
+/* ESSA
